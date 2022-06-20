@@ -1,5 +1,8 @@
 # **Solution Summary**
-In this solution, I have used a LightGBM model and an Ensemble model with RMSE for metric optimization. The Ensemble model combines the predictions of the LightGBM model
+
+This solution is for "Predict Future Sales" competition hosted on Kaggle. This is the link to the competition: https://www.kaggle.com/competitions/competitive-data-science-predict-future-sales 
+
+In the solution, I have used a LightGBM model and an Ensemble model with RMSE for metric optimization. The Ensemble model combines the predictions of the LightGBM model
 and a Linear Regression model. Their predictions are then used as meta-features to a meta Linear Regression
 model. The result of the ensemble model was comparable to the LightGBM model alone, but it was more
 computationally expensive. Replacing the linear regression with another model or training the LightGBM in the
